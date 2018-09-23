@@ -1,5 +1,10 @@
 body {
-    background-image: url ("images/4c226c4d-a9f6-4f3e-8340-1542118438bd.jpg");
+    background-image: url("../images/jess-watters-571660-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat:   no-repeat;
+    height:500px;
+    background-color: #78d3df;
 
 }
 
@@ -13,15 +18,15 @@ body {
     transform: translateX(-50%) translateY(-50%);
     background: rgba(255, 255, 255, 0.5);
     padding: 20px;
-    border: 1px solid #08038c;
-    box-shadow:0 0 8px 3px #fff;
+    /* border: 1px solid #403ae6;
+    box-shadow:0 0 8px 3px #fff; */
 }
 
 .title{
     padding-top: 20px;
     text-align: center;
     text-transform: uppercase;
-    color: #08038c;
+    color: #403ae6;
 
 }
 
@@ -29,7 +34,7 @@ body {
 
     padding-top:20px;
     font-size: 22px;
-    background: #08038c;
+    background: #403ae6;
     border-radius: 2px;
     margin: 10px 0 10px 0;
     color: #f6f6f6;
@@ -49,7 +54,7 @@ body {
 
 .option:hover {
 
-    background: #08038c;
+    background: #403ae6;
     color: #f6f6f6;
 }
 
@@ -68,7 +73,7 @@ body {
 
 .next-btn:hover {
 
-    background: #08038c;
+    background: #403ae6;
     color: #f6f6f6;
 
 }
@@ -81,7 +86,7 @@ body {
 
 .option input:checked .option{
 
-    background: #08038c;
+    background: #403ae6;
     color: #000;
 }
 

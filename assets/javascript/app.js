@@ -115,17 +115,19 @@ function loadNextQuestion () {
 	}
 	var answer = selectedOption.value;
 	if(questions[currentQuestion].answer == answer){
-		score += 10;
+		score += 1;
 	}
 	selectedOption.checked = false;
 	currentQuestion++;
 	if(currentQuestion == totQuestions - 1){
-		nextButton.textContent = 'Finish';
+        nextButton.textContent = 'Finish';
+        
 	}
 	if(currentQuestion == totQuestions){
 		container.style.display = 'none';
 		resultCont.style.display = '';
-		resultCont.textContent = 'Your Score: ' + score;
+        resultCont.textContent = 'Your Score: ' + score;
+        alert("you got " + score + "/" + totQuestions);
 		return;
 	}
 	loadQuestion(currentQuestion);
@@ -133,7 +135,7 @@ function loadNextQuestion () {
 
 loadQuestion(currentQuestion);
 
-alert("you got " + score + "/" + questions.length);
+
 
 // var score = 0;
 
